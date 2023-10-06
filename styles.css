@@ -52,8 +52,8 @@ table {
 
 /* begin personal styling after default */
 .container {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
@@ -63,6 +63,9 @@ table {
     grid-template-columns: 2 / 3;
     grid-template-rows: 1 / 2;
     background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .sidebar {
@@ -90,7 +93,7 @@ table {
 
 .logo h2 {
     color: white;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 
 .firstLinks {
@@ -105,7 +108,8 @@ table {
 }
 
 .firstLinks > a, .secondLinks > a {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
     align-items: center;
     gap: 0.5vw;
     color: white;
