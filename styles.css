@@ -226,6 +226,12 @@ html, body {
 .announcementCard, .trendingCard {
     background-color: white;
     border-radius: 25px;
+    width: 80%;
+    height: 100%;
+}
+
+.announcementCard {
+    margin-bottom: 3vh;
 }
 
 .announcements {
