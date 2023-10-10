@@ -249,6 +249,8 @@ html, body {
     grid-column: 2 / 3;
     font-size: 1.5rem;
     margin-left: 2vw;
+    margin-top: 2vh;
+    margin-right: 1vw;
 }
 
 .actions {
