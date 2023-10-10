@@ -317,8 +317,7 @@ html, body {
 }
 
 .account {
-    display: grid;
-    grid-template: auto 1fr / auto 1fr;
+    display: flex;
     margin-left: 2vw;
 }
 
@@ -328,11 +327,17 @@ html, body {
     border-radius: 50%;
 }
 
-.account > h5 {
+.accountText {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+.accountText > h5 {
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-.account > p {
+.accountText > p {
     font-size: 1.2rem;
 }
