@@ -259,6 +259,14 @@ html, body {
     margin-bottom: 1vh;
 }
 
+.announcements {
+    margin-top: 4vh;
+    margin-right: 2vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 .announcementCard, .trendingCard {
     background-color: white;
     border-radius: 25px;
@@ -268,14 +276,29 @@ html, body {
 
 .announcementCard {
     margin-bottom: 3vh;
-}
-
-.announcements {
-    margin-top: 4vh;
-    margin-right: 2vw;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.announcementText > h4 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-left: 2vw;
+}
+
+.announcementText > p {
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: 2vw;
+}
+
+.borderLine {
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, #00ffff, rgb(0 100 255));
+    margin-left: 2vw;
 }
 
 .trending {
